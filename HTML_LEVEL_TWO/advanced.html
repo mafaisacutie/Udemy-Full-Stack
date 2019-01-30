@@ -34,13 +34,37 @@
     </form>
 
     <!-- Color Forms -->
-    <form class="" action="index.html" method="post">
+    <form>
       <h1>Choose Color!</h1>
       <h2>Click on Button!</h2>
       <input type="color" name="" value="">
       <h2>type some text</h2>
       <input type="text" name="" value="Text goes here">
     </form>
+
+    <!-- Forms and Labels -->
+    <form action="http://www.facebook.com/" method="get">
+      <p>Enter Text:</p>
+      <input type="text" name="userinput" value="">
+      <input type="submit" name="" value="Submit">
+    </form>
+
+<!-- BAD WAY -->
+    <form>
+      <label>
+        Enter some text:
+        <input type="text" name="" value="">
+      </label>
+    </form>
+    <!-- -->
+
+<!-- GOOD WAY -->
+    <label for="userinput"> Enter Input:</label>
+    <!-- <input id="userinput" type="text" name="" value="Hello!"> -->
+    <!-- value ^^^^ needs to be deleted, but placeholder does not -->
+    <input id="userinput" type="text" name="" placeholder="Hello!" required>
+    <!-- required needs to be filled out top continue -->
+<!-- -->
 
   </body>
 </html>
