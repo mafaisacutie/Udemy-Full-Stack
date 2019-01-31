@@ -1,0 +1,28 @@
+/* this is a comment */
+
+/* this
+is
+a
+comment */
+
+/* selected tag{
+  property: value;
+} */
+
+
+/* basic example */
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(163,164,199); /* RGB Codes */
+}
+
+p{
+  color: #0895a8;/* HEX Codes */
+}
+
+h4{
+  color: rgba(163,164,199,0.5);/* RGBa */
+}
