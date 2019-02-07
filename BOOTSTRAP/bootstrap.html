@@ -3,11 +3,53 @@
   <head>
     <meta charset="utf-8">
     <title>Bootstrap Notes</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   </head>
   <body>
 
+    <!-- NAVBAR SECTION -->
+
+
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+
+          <!-- HAMBURGER MENU -->
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"">
+
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+          <!-- HAMBURGER MENU -->
+
+
+          <!-- COMPANY ICON -->
+          <a href="#" class="navbar-brand">Company</a>
+          <!-- COMPANY ICON -->
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Item1</a></li>
+            <li><a href="#">Item2</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true">Dropdown<span href="#" class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="https://www.google.com/">Go to Google</a></li>
+                <li><a href="#">something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+<!-- CONTAINER AND JUMBOTRON SECTION -->
     <div class="container">
 
       <h1>Hello, World!</h1>
@@ -29,6 +71,77 @@
         <p><a class="btn btn-primary btn-lg" href="#" role="btn">Learn More!</a></p>
       </div>
     </div>
+
+
+
+
+<!-- FORMS SECTION -->
+
+
+
+    <form class="container">
+      <div class="form-group">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlFile1">Example file input</label>
+        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+
+
+    <form>
+      <legend>Radio Buttons</legend>
+      <fieldset class="form-group">
+        <div class="form-check">
+
+          <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" id="optionsRadios1" name="optionsRadios" value="option1">
+            Option one is this and that - be sure to include why it's great
+          </label>
+          </div>
+
+          <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" id="optionsRadios2" name="optionsRadios" value="option2">
+            Option two can be something else and selectiong it will deselecct option one
+          </label>
+          </div>
+
+          <div class="form-check disabled">
+          <label class="form-check-label">
+            <input disabled class="form-check-input" type="radio" id="optionsRadios3" name="optionsRadios" value="option3">
+            Option three is disabled
+          </label>
+          </div>
+
+        </div>
+      </fieldset>
+    </form>
+
+    <script
+			  src="http://code.jquery.com/jquery-3.1.1.min.js"
+			  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+			  crossorigin="anonymous"></script>
+
+        <script
+        src="http://code.jquery.com/jquery-3.1.1.js"
+        integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+        crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
   </body>
 </html>
