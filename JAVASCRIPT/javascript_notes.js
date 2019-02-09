@@ -199,3 +199,57 @@ while(num<10){
   }
   num = num+1;
 }
+
+// for loops
+for (statement1;statement2;statement3){
+  // Execute some code
+}
+
+// statement1 is executed before the loop, (the code block) starts.
+for (var i =0;statement2;statement3){
+  // Execute some code
+}
+
+// statement2 defines the condition for running the loop
+for (var i =0;i<5;statement3){ //while i is less than 5
+  // Execute some Code
+}
+
+// statement3 is executed each time after the loop cycles through.
+for (var i = 0;i<5;i++){
+  console.log("Number is: "+i)
+  // prints
+  // Number is: 0
+  // Number is: 1
+  // Number is: 2
+  // Number is: 3
+  // Number is: 4
+  // into the console
+}
+
+// examples
+var word = "ABCDEFGHIJK"
+for (var i = 0; i < word.length; i++) {
+  console.log(word[i])
+  // prints
+  // A
+  // B
+  // C
+  // D
+  // E
+  // F
+  // G
+  // H
+  // I
+  // J
+  // K
+  // into the console
+}
+
+var word = "ABABABABAB"
+for (var i = 0; i < word.length; i=i+2) {
+  console.log(word[i])
+  // prints
+  // A (5)
+  // into the console
+}
