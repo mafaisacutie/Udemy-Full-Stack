@@ -253,3 +253,34 @@ for (var i = 0; i < word.length; i=i+2) {
   // A (5)
   // into the console
 }
+
+
+
+// loop exercises
+// print hello 5 times with a while loop
+var x = 0;
+while (x<5){
+  console.log("hello")
+  x++;
+}
+
+// do the same thing, but in a for loop
+for (var i = 0; i < 5; i++) {
+  console.log("hello")
+}
+
+// use loops to print out all odd number
+// do this using two methods, while loop and for loop
+var num = 1;
+while (num<25){
+  if (num%2!==0){
+    console.log(num)
+  }
+  num++;
+}
+// for lood method
+for (var num = 1; num < 25; num++) {
+  if (num%2!==0){
+    console.log(num)
+  }
+}
