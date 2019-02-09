@@ -115,3 +115,44 @@ clear()
 
 6%4
 // 2
+
+// operators
+
+2 == 2
+// true
+
+2 > 3
+// false
+
+"2" == 2
+// true???? Fix this
+
+"2" === 2
+// false, fixed ;)
+
+"2" === "2"
+// true
+
+"5" !== 5
+// true
+
+5 != "5"
+// false
+
+1 === 1 && 2 === 2
+// true
+
+1 === 1 && 2 === 1
+// false
+
+1 === 1 || 2 === 1
+// true
+
+(1===1)
+// tre
+
+!(1===1)
+// false
+
+!!!!!(1===1)
+// false ^^ HORRIBLE CODE
