@@ -156,3 +156,16 @@ clear()
 
 !!!!!(1===1)
 // false ^^ HORRIBLE CODE
+
+
+
+
+// control flow
+if (condition){
+  //Excute some Code
+}else if (condition){
+  // Execute some other Code
+}else{
+  // Execute some backup Code
+}
+// ^^^ Pretty much it for control flow lol ^^^
