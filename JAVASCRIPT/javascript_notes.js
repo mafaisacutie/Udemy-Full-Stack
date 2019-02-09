@@ -169,3 +169,33 @@ if (condition){
   // Execute some backup Code
 }
 // ^^^ Pretty much it for control flow lol ^^^
+
+
+
+
+
+// while loops
+while (condition){
+  // Execute some Code while
+  // this condition is true
+}
+
+var x = 0;
+while (x<5){
+  console.log("x is currently: "+x)
+  if (x===3){
+    console.log("X IS EQUAL TO THREE!");
+    break; // this will stop the entire loop once x===3
+  }
+  console.log("x is still less than 5, adding 1 to x")
+  x = x+1;
+}
+
+// grab even numbers
+num = 1;
+while(num<10){
+  if (num%2===0){
+    console.log(num)
+  }
+  num = num+1;
+}
