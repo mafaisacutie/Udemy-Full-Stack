@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script type="text/javascript" src="./dom.js"></script>
+    <link rel="stylesheet" href="./dom.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+  <body>
+    <h1>Document Object Model (DOM)</h1>
+    <h1>This is the header</h1>
+
+    <p>
+
+      You will use the javascript file to continually change the size of the
+      header, but first we need to learn how to use JavaScript to actually
+      grab the HTML objects from the DOM.
+
+    </p>
+    <p>Here are some important document attributes:</p>
+    <ul class="myul">
+      <li id="pickme">document.URL    -- This is the actual URL of the website</li>
+      <li>document.body   -- This is everything inside of the body</li>
+      <li>document.head   -- This is everything in the head of the page</li>
+      <li>documnet.links  -- These are all the links on the page</li>
+    </ul>
+    <p>Then we also have methods we can use to grab HTML elements:</p>
+    <ul class="myul">
+      <li>document.getElementById() -- Returns the element with the id</li>
+      <li>document.getElementsByClassName() -- Returns list of all elements belonging to a class</li>
+      <li>document.getElementsByTagName() -- Returns list of all elements with the tag</li>
+      <li>document.querySelector() -- Returns the first object matching the CSS style selector</li>
+      <li>document.querySelectorAll() -- Returns all objects matchin the CSS style selector</li>
+    </ul>
+    <p>
+      The first three of these are pretty self explanatory. The querySelector()
+      can accept CSS style selector, so you can use # or . if you want ids or classes.
+      Basically a more generalized method where you can type any CSS style.
+
+      The difference between querySelector() and querySelectorAll() is that
+      querySelectorAll() will return a list of all matches, querySelector() just
+      returns the first match.
+    </p>
+
+
+    <script
+    src="http://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>  <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="Part1_Color_Changer.js">
+
+    </script>
+</html>
