@@ -1,0 +1,30 @@
+// See files in current directory
+
+Windows users:
+dir
+
+Mac/Linux Users:
+ls
+
+// Go to directory (same for all OS's)
+cd <directory path>
+
+// Clearing screen
+Windows:
+cls
+
+Mac/Linux:
+clear
+
+// See current directory
+Windows:
+usually to the left of the blinking cursor or type cd
+
+Mac/Linux:
+Same as windows, but you could also type: pwd (print working directory)
+
+// New directory (same for all OS's)
+mkdir <folder_name>
+
+// Go back a directory (same for all OS's)
+cd ..
