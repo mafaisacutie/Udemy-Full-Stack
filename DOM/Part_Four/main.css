@@ -1,0 +1,30 @@
+h1{
+  text-align: left;
+}
+
+#restart{
+  margin-left: auto;
+}
+
+table{
+  border: 4px solid #333333;
+  margin: auto;
+}
+
+tr{
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 4px solid #333333;
+  font-size: 50px;
+  margin: auto;
+}
+
+td{
+  font-size: 67px;
+  text-align: center;
+  height: 100px;
+  width: 100px;
+  border: 4px solid #333333;
+  margin: auto;
+}
